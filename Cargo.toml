@@ -1,0 +1,12 @@
+[package]
+name = "wl-bad-apple"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dependencies.sctk]
+package = "smithay-client-toolkit"
+git = "https://github.com/Smithay/client-toolkit.git"
+# ext-background-effect merged
+rev = "99ddfec6bc68d3a5d47d9554f973b34aebab0b83"
